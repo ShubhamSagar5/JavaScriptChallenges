@@ -154,3 +154,16 @@
 //     return prev* curr
 // })
 // console.log(fact)
+
+
+let mainDiv= document.getElementById('mainDiv')
+let heading = document.createElement('h2')
+heading.innerText = "This is apana college"
+
+
+let divGroup = document.getElementsByClassName('box')
+let i = 0
+for(div of divGroup){
+    div.innerText = `new eleent ${i}`
+    i++
+}
